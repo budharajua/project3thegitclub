@@ -1,0 +1,2 @@
+SELECT * FROM Species WHERE Taxa = 'Rodent'  #look in the taxa table to find every species that is classified as a rodent.
+#Every species listed has a unique species code. This is the primary key of the species table. 
