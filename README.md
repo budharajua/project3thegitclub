@@ -38,6 +38,7 @@ You will receive points for:
 
 Rubric item	Points	Your score
 Group plan submitted	5 points	
+
 Defined elements above:
 * Database:
 
@@ -57,11 +58,17 @@ Defined elements above:
 
 20 points	
 Having at least one commit from each member of the team	2 points	
+
 Using meaningful commit messages	2 points	
+
 Using branches to work collaboratively	4 points	
+
 Using comments in code	1 points	
+
 Logical flow to code	3 points	
+
 Readability of code	3 points	
+
 Total points:
 
 /40
