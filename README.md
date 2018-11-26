@@ -55,8 +55,8 @@ Defined elements above:
    * Query database
 
       * Select, where, join
-
 20 points	
+
 Having at least one commit from each member of the team	2 points	
 
 Using meaningful commit messages	2 points	
