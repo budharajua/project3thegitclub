@@ -21,19 +21,17 @@ Write a script to analyze the flight data from PS2. You can choose what you want
 
 Write a script that does anything of your choice. This is kind of wide open, but remember the criteria above. Each of those criteria must be satisfied in your script for full points.
 
- (Links to an external site.)Links to an external site.Group members and plan
+Group members and plan
 You should submit by email to magitz@ufl.edu your group members and the plan for the project by 11/26.
 
- (Links to an external site.)Links to an external site.Due date
+ Due date
 This is due 12/5. I need to grade assignments and turn in grades, so I cannot take it much past this date. Please let me know if you think you will need more time.
 
- (Links to an external site.)Links to an external site.Instructions
- (Links to an external site.)Links to an external site.To submit
+Instructions To submit
 You should submit your answer as one or more scripts in a git repository. Submit the link in Canvas.
 
 You should start in Canvas, creating your group and then create the same group in github.
 
- (Links to an external site.)Links to an external site.Grading
 You will receive points for:
 
 Rubric item	Points	Your score
