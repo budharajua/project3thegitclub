@@ -1,0 +1,9 @@
+
+
+select genus, taxa, species.species_id, sex, plot_id, record_id, hindfoot_length FROM species JOIN surveys ON species.species_id = surveys.species_id WHERE taxa='Rodent';
+
+#sql code to join two tables together (species and surveys) with primary and forign key "species_id" where taxa = rodent
+
+#constitutes our filter and our join
+
+​
