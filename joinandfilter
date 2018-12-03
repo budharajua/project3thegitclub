@@ -6,4 +6,9 @@ select genus, taxa, species.species_id, sex, plot_id, record_id, hindfoot_length
 
 #constitutes our filter and our join
 
+#The code below filters out null values for sex and hindfoot_length and also selects species. 
+SELECT genus, species, taxa, species.species_id, sex, plot_id, record_id, hindfoot_length 
+FROM species JOIN surveys ON species.species_id = surveys.species_id WHERE taxa='Rodent' 
+AND sex IS NOT NULL AND hindfoot_length IS NOT NULL;
+
 ​
