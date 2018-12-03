@@ -6,11 +6,16 @@ This is a group project. You should work in groups of 2 to 4 (not alone and not 
 The following are required elements of the final script(s) that are turned in:
 
 You must have a database with at least 2 tables
+
 Each table should have a primary key 
+
 There should be at least one foreign key
+
 You can either set up the tables in sqlite or from your Python script.
+
 Your Python script should use SQLAlchemy to
 Add data to the database
+
 Query data in the database using each of these commands:
 select, where, join
 Preferably uses the SQL Expression Language, but OK if you use raw SQL.
