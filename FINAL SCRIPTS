@@ -1,0 +1,23 @@
+Database: portal_mammals.sqlite 
+
+Database already has 3 tables, and it is normalized because there are separate tables to specify what the species codes and plot IDs refer to
+For the 'plots' table, 'plot_id' is the primay key, and in the 'surveys' table 'plot_id' is a foreign  key
+Similarly for the 'species' table, 'species_id' is the primay key, and in the 'surveys' table 'species' is a foreign  key
+In the 'survey' table 'record_id' is the primary key which is unique to each measurement which has been recorded 
+We further normalized the database by removing all the rows that contained null values: 
+
+#The code below filters out null values for sex and hindfoot_length and also selects species 
+SELECT genus, species, taxa, species.species_id, sex, plot_id, record_id, hindfoot_length 
+FROM species JOIN surveys ON species.species_id = surveys.species_id WHERE taxa='Rodent' 
+AND sex IS NOT NULL AND hindfoot_length IS NOT NULL;
+
+#sql code to join two tables together (species and surveys) with primary and foreign key are "species_id" and where taxa = rodent
+#constitutes our filter and our join
+SELECT genus, taxa, species, species.species_id, sex, plot_id, record_id, hindfoot_length 
+FROM species JOIN surveys ON species.species_id = surveys.species_id WHERE taxa='Rodent';
+
+#used to add new data to table 
+INSERT INTO SPECIES (species_id, genus, taxa) VALUES ('VA', 'vaccinium', 'plant')
+
+
+
