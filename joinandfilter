@@ -1,6 +1,7 @@
+Data = SQL Database on mammals and trapping data.
 
-
-select genus, taxa, species.species_id, sex, plot_id, record_id, hindfoot_length FROM species JOIN surveys ON species.species_id = surveys.species_id WHERE taxa='Rodent';
+SELECT genus, taxa, species.species_id, sex, plot_id, record_id, hindfoot_length 
+FROM species JOIN surveys ON species.species_id = surveys.species_id WHERE taxa='Rodent';
 
 #sql code to join two tables together (species and surveys) with primary and foreign key are "species_id" and where taxa = rodent
 
