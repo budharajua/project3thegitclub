@@ -19,5 +19,8 @@ FROM species JOIN surveys ON species.species_id = surveys.species_id WHERE taxa=
 #used to add new data to table 
 INSERT INTO SPECIES (species_id, genus, taxa) VALUES ('VA', 'vaccinium', 'plant')
 
+#look in the taxa table to find every species that is classified as a rodent.
+#Every species listed has a unique species code. This is the primary key of the species table. 
+SELECT * FROM Species WHERE Taxa = 'Rodent'  
 
 
