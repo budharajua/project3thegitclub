@@ -11,4 +11,5 @@ SELECT genus, species, taxa, species.species_id, sex, plot_id, record_id, hindfo
 FROM species JOIN surveys ON species.species_id = surveys.species_id WHERE taxa='Rodent' 
 AND sex IS NOT NULL AND hindfoot_length IS NOT NULL;
 
+#The data was normalized by removing the null values for sex and hindfoot_length.
 ​
